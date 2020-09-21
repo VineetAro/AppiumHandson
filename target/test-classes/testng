@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	</listeners>
+  <test name="Test">
+    <packages>
+      <package name="appsGoogle"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
